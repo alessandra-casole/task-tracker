@@ -1,0 +1,12 @@
+<form *ngIf="showAddTask" [formGroup]="taskForm" class="add-form" (ngSubmit)="onsubmit(taskForm)">
+  <mat-form-field appearance="outline">
+    <mat-label>Task</mat-label>
+    <input matInput placeholder="Add Task" formControlName="task">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Day & Time</mat-label>
+    <input matInput placeholder="Add Day & Time" formControlName="dayTime">
+  </mat-form-field>
+  <mat-checkbox formControlName="reminder" labelPosition="before" color="primary">Set Reminder</mat-checkbox>
+  <button class="btn" mat-raised-button color="primary" type="submit" >Save Task</button>
+</form>

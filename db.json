@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "8672",
+      "text": "podologo",
+      "day": "24 luglio 2025",
+      "reminder": false
+    },
+    {
+      "id": "6e9b",
+      "text": "prova 3",
+      "day": "14/07/2025",
+      "reminder": true
+    }
+  ]
+}

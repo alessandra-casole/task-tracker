@@ -1,0 +1,20 @@
+.add-form {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+
+  .mat-mdc-raised-button {
+    background-color: #000 !important;
+    height: 42px !important;
+    margin-top: 20px;
+  }
+
+  ::ng-deep {
+    .mat-mdc-checkbox label {
+      font-weight: 500 !important;
+    }
+  }
+}
+
+
+
